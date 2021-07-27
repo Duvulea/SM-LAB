@@ -7,6 +7,7 @@ int t,i;
 float d;
 float xf[12],yf[12],xb[12],yb[12],vf;
 
+printf("\nSIMULATION OF PURE PURSUIT PROBLEM IN C\n\n");
 printf("Enter Target path, xb[t] & yb[t]:");
   for(i=0;i<12;i++){
   scanf("%f%f",&xb[i],&yb[i]);

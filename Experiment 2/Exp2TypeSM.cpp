@@ -2,7 +2,6 @@
 #include <stdlib.h>
 #include <time.h>
 using namespace std;
-
 int generate_demand()
 { 
     srand(time(NULL));
@@ -35,8 +34,7 @@ int main()
             {
                 stock-= demand;
                 total_cost+= stock*0.75;
-            }
-     
+            }   
             else
             {
                 total_cost+= (demand - stock)*18;

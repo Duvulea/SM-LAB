@@ -34,4 +34,3 @@ printf("Target Escaped\n");
 getch();
 return(0);
   }
-© 2021 GitHub, Inc.

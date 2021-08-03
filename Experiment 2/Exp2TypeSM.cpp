@@ -15,8 +15,6 @@ int main()
     for(int i=0;i<5;i++)
     {
         cin>>P>>Q; //125 150
-
-        //All the initializations
         startDate = 1;
         dueDate = 0; //startDate+3;
         today = startDate;
